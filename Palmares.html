@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lionel Messi - Palmarès</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #1d2671, #c33764);
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        nav {
+            background: #000;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #f1c40f;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #f1c40f;
+            color: #000;
+            border-radius: 5px;
+        }
+        .container {
+            width: 90%;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            border-radius: 15px;
+        }
+        h1 {
+            color: #f1c40f;
+            font-size: 3em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 30px;
+            text-transform: uppercase;
+            color: #f1c40f;
+        }
+        ul {
+            text-align: left;
+            list-style-type: none;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        video {
+            width: 80%; /* Réduit la largeur de la vidéo à 80% de la largeur du container */
+            max-width: 600px; /* Limite la largeur à 600px */
+            height: auto; /* Maintient les proportions de la vidéo */
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Responsive design */
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2.5em;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            nav a {
+                font-size: 1.1em;
+                padding: 12px 18px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            nav a {
+                font-size: 1em;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Accueil.html">Accueil</a>
+        <a href="Biographie.html">Biographie</a>
+        <a href="Palmares.html">Palmarès</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Le Palmarès de Lionel Messi</h1>
+        
+        <!-- Vidéo -->
+        <video controls>
+            <source src="Ankaramessi.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+        
+        <h2>Palmarès en club</h2>
+        <ul>
+            <li><strong>La Liga :</strong> 10 titres (2005–2018)</li>
+            <li><strong>Champions League :</strong> 4 titres (2006, 2009, 2011, 2015)</li>
+            <li><strong>Copa del Rey :</strong> 7 titres</li>
+            <li><strong>Supercopa de España :</strong> 8 titres</li>
+            <li><strong>FIFA Club World Cup :</strong> 3 titres</li>
+        </ul>
+
+        <h2>Palmarès avec l'Argentine</h2>
+        <ul>
+            <li><strong>Copa América :</strong> 1 titre (2021)</li>
+            <li><strong>Coupe du Monde :</strong> 1 titre (2022)</li>
+            <li><strong>Médaille d'Or des Jeux Olympiques :</strong> 1 (2008)</li>
+        </ul>
+
+        <h2>Distinctions personnelles</h2>
+        <ul>
+            <li><strong>Ballon d'Or :</strong> 7 fois (2009, 2010, 2011, 2012, 2015, 2019, 2021)</li>
+            <li><strong>Meilleur joueur de la FIFA :</strong> 1 fois (2009)</li>
+            <li><strong>Meilleur buteur de l'histoire du FC Barcelone et de la Liga</strong></li>
+        </ul>
+    </div>
+</body>
+</html>
+
